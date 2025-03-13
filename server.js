@@ -11,7 +11,7 @@ app.use(express.json());
 // Import routes
 const authRoutes = require('./routes/auth');
 const eventRoutes = require('./routes/events');
-
+//
 // Use routes
 app.use('/api/auth', authRoutes);
 app.use('/api/events', eventRoutes);
